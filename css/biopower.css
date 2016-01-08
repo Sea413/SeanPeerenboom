@@ -1,7 +1,19 @@
 .moz {
   font-weight: bold;
 }
-
 .text{
   font-family: Times, "Times New Roman", Georgia, serif;
+}
+.glyphicon {
+  font-size: 50px;
+  left: 150px;
+}
+.container {
+  float: center;
+}
+.jumbotron{
+  float: center;
+}
+h1 {
+  text-align:center;
 }
