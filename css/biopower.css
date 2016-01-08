@@ -5,10 +5,6 @@
 .text{
   font-family: Times, "Times New Roman", Georgia, serif;
 }
-.glyphicon {
-  font-size: 50px;
-  left: 150px;
-}
 .container {
   float: center;
 }
@@ -32,3 +28,21 @@ img.resize {
   padding-left: 50px;
   border-radius: 5%;
 }
+.summer{
+  <div class="modal" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Select the file you would like to view.</h4>
+      </div>
+      <div class="modal-body">
+        <a href="https://github.com/Sea413/Mordor" class="btn btn-default" role="button">Github Page Link</a>
+        <a href="http://sea413.github.io/Mordor" class= "btn btn-default" role="button">Hosted Link</a>
+        </div>
+      <div class="modal-footer">
+        <button class="btn btn-danger" data-dismiss="modal" role="button"> Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
