@@ -1,18 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/biopower.css" media="screen" title="no title" charset="utf-8">
-    <meta charset="utf-8">
-    <title>Sean Peerenboom code philosopher!</title>
-    <img src="photos/christmas.jpg" alt="Always Positive" />
+    <title>Code Philosopher!</title>
+    <link rel="stylesheet" href="css/biopower.css" media="screen" charset="utf-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
   </head>
   <body>
+    <img src="photos/christmas.jpg" alt="Always Positive" />
     <div class="text">
       <h1><strong>Sean Peerenboom</strong></h1>
+      <div class="modal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Link Options</h4>
+          </div>
+          <div class="modal-body">
+            <a href="https://media0.giphy.com/media/AxjfeKuEG4SK4/200_s.gif"class="btn btn-default" role="button"> Browser Link</a>
+            <a href="https://media0.giphy.com/media/AxjfeKuEG4SK4/200_s.gif"class="btn btn-default" role="button"> Github Link</a>
+          </div>
+          <div class="modal-footer">
+            <a href="https://media0.giphy.com/media/AxjfeKuEG4SK4/200_s.gif"class="btn btn-default" role="button"> Close</a>
+            <button type="button" class="close" data-dismiss="modal" class="btn btn-default">Close</button>
       <ul>
-        <li>A wonderous blog on why you should travel to <em>Mordor!</em></li>
-        <li>The second greatest comic blog ever created! (I could not find the first one on Google)</li>
-        <li>An animal shleter site dedicated to aniamls who have gained self actualization</li>
+        <li>A wonderous blog on why you should travel to
+           <a href=".modal" data-toggle="modal">
+            <span class="blog1">
+              Mordor!
+            </span>
+           </a>
+        </li>
+        <li>The second greatest
+          <a href=".modal" data-toggle="modal">
+            <span class="blog2">comic blog</span>
+          </a> ever created! (I could not find the first one on Google)</li>
+        <li>An animal shleter site dedicated to aniamls who have gained <span class="blog3">self actualization</span></li>
       </ul>
       <h2>About Myself :)</h2>
       <h3>Work Experience</h3>
@@ -26,11 +52,11 @@
           <li>Buffer Overflows</li>
           <li>DDOS Attacks</li>
           <li>Network defenses including</li>
-          <ol>
+          <ul>
             <li>Canary Stacks</li>
             <li>Non-Executable Memory</li>
             <li>Randomized Address Stacking</li>
-          </ol>
+          </ul>
         </ol>I study buffer overflows, social engineering attacks, DDOS attacks, and all of the ways to prevent them from occuring. When granted a bit of spare time I will often be playing Netrunner and reading Brandon Sanderson novels.
       </p>
     </div>
