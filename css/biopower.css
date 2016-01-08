@@ -26,3 +26,9 @@ h1 {
 .rick {
   text-indent: 2.5%;
 }
+img.resize {
+  max-width:25%;
+  max-height:25%;
+  padding-left: 50px;
+  border-radius: 5%;
+}
