@@ -1,5 +1,6 @@
 .moz {
   font-weight: bold;
+  font-style: italic;
 }
 .text{
   font-family: Times, "Times New Roman", Georgia, serif;
@@ -16,4 +17,12 @@
 }
 h1 {
   text-align:center;
+}
+.morty{
+  padding-left: 50px;
+  font-family: sans-serif;
+  font-size: 125%;
+}
+.rick {
+  text-indent: 2.5%;
 }
