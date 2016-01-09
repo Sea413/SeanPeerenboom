@@ -1,56 +1,79 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Code Philosopher!</title>
-    <link rel="stylesheet" href="css/biopower.css" type="text/css">
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/biopower.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+    <title>Code Philosopher!</title>
   </head>
   <body>
-    <img src="photos/christmas.jpg" alt="Always Positive" />
-      <h1><strong>Sean Peerenboom</strong></h1>
+    <div class="container">
+      <div class="jumbotron">
+        <h1><strong>Sean Peerenboom</strong></h1>
+      </div>
+    </div>
+    <img class="resize" src="photos/Michel_Foucault_sithum.jpg" alt="Always Positive" />
+    <div class="morty">
+    <h2>Grand Projects!(Which have been programmed in HTML and CSS)</h2>
       <ul>
         <li>A wonderous blog on why you should travel to
-           <a href=".modal" data-toggle="modal">Mordor</a>
+          <a href=".modal" data-toggle="modal"><em>Mordor.</em></a>
         </li>
         <li>The second greatest
-          <a data-toggle="modal">
-            <span class="blog2">comic blog</span>
-          </a> ever created! (I could not find the first one on Google)</li>
-        <li>An animal shleter site dedicated to aniamls who have gained <span class="blog3">self actualization</span></li>
+          <a href=".modal" data-toggle="modal"><em>Comic Blog</em>
+          </a>
+        ever created! Click to find out the greatest of all comics.</li>
+        <li>An animal shelter site dedicated to aniamls who have gained
+          <a href=".modal" data-toggle="modal"><em>Self Actualization</em>
+          </a>
+        </li>
       </ul>
-      <h2>About Myself :)</h2>
-      <h3>Work Experience</h3>
+    <h2>Work Experience</h2>
+    <div class="rick">
       <p>
-        I hail from the fair city of Maple Valley forty five minutes outside of Seattle. Upon hearing the call to adventure I ventured out to the fabled land of Washington DC. Once there I obtained a bachelors in philosophy in two and a half years. After graduating I returned to obscurity of Washington and took a series of wonderful and insightful jobs. I managed the Northwest branch of Myriad Games retail stores and worked as an office coordinator at an intellectual property firm. Seeking a deeper understandng if tech I worked at the company <a href="https://moz.com/"><span class="moz">Moz</span></a>  as a Customer Support Engineer for a year and a half.
-      </p>
-      <h3>Current Interests</h3>
-      <p>
-        My current interest is to go into network security. On my own time:
-        <ol>
-          <li>Buffer Overflows</li>
-          <li>DDOS Attacks</li>
-          <li>Network defenses including</li>
-          <ul>
-            <li>Canary Stacks</li>
-            <li>Non-Executable Memory</li>
-            <li>Randomized Address Stacking</li>
-          </ul>
-        </ol>I study buffer overflows, social engineering attacks, DDOS attacks, and all of the ways to prevent them from occuring. When granted a bit of spare time I will often be playing Netrunner and reading Brandon Sanderson novels.
+I hail from the fair city of Maple Valley forty five minutes outside of Seattle. Upon hearing the call to adventure I ventured out to the fabled land of Washington DC. Once there I obtained a bachelors in philosophy within two and a half years. After graduating I returned to the obscurity of Washington and took a series of wonderful and insightful jobs. I managed the Northwest branch of Myriad Games retail stores and worked as an office coordinator at an intellectual property firm. Finally, seeking a deeper understandng of tech I worked at the company
+        <a href="https://moz.com/"><span class="moz">Moz</span>
+        </a>  as a Customer Support Engineer for a year and a half.
       </p>
     </div>
+    <h2>Current Interests</h2>
+    <p>
+My current interest is to go into network security. On my own time:
+    <ol>
+      <li>Buffer Overflows</li>
+      <li>DDOS Attacks</li>
+      <li>Network defenses including</li>
+      <ul>
+        <li>Canary Stacks</li>
+        <li>Non-Executable Memory</li>
+        <li>Randomized Address Stacking</li>
+      </ul>
+    </ol>I study buffer overflows, social engineering attacks, DDOS attacks, and all of the ways to prevent them from occuring. When granted a bit of spare time I will often be playing Netrunner and reading Brandon Sanderson novels.
+    </p>
+    </div>
+    <div class="modal" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Select the file you would like to view.</h4>
+          </div>
+          <div class="modal-body">
+            <a href="https://github.com/Sea413/Mordor" class="btn btn-default" role="button">Mordor Github</a>
+            <a href="http://sea413.github.io/Mordor" class= "btn btn-default" role="button">Mordor Hosted</a>
+            <a href="https://github.com/Sea413/Comics-Blog" class="btn btn-success" role="button">Comics Github</a>
+            <a href="http://sea413.github.io/Comics-Blog" class= "btn btn-success" role="button">Comics Hosted</a>
+            <a href="https://github.com/Sea413/animal" class="btn btn-info" role="button">Shelter Github</a>
+            <a href="http://sea413.github.io/animal" class= "btn btn-info" role="button">Shelter Hosted</a>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-danger" data-dismiss="modal" role="button"> Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
   </body>
+
 </html>
-<script> $(document).ready(function() {
-
-  if(window.location.href.indexOf('#myModal') != -1) {
-    $('#myModal').modal('show');
-  }
-
-});
-</script>
