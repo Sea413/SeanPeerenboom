@@ -1,0 +1,36 @@
+body {background-color: #000000;
+color: #ffffff
+}
+h1 {color:#B22222;
+  font-weight: bolder;
+  font-family: fantasy;
+}
+h2 {color:#B22222;
+  font-family: fantasy;
+}
+p {font-family: sans-serif;}
+li {font-size: 38px;}
+img {
+  height: 50%;
+}
+
+.jumbotron{
+    background-image: url(http://bebusinessed.com/wp-content/uploads/2014/03/734899052_13956580111.jpg);
+    background-repeat:repeat;
+    padding:200px;
+    margin: 70px;
+    }
+.modal-title {
+  color: black;
+}
+
+.modal-body {
+  color: black;
+}
+.fancy {
+  font-size: 120px;
+  color: #FF6633;
+  font-family: fantasy;
+  text-decoration: underline;
+  text-align: center;
+}
